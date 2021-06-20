@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackgroundFragment">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="480dp"
+        android:src="@drawable/background"
+        android:layout_gravity="center"
+        android:layout_height="790dp"/>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_height="match_parent">
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnNews"
+           android:text="الاخبار"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnMaalem"
+           android:text="معالم مدينة القدس"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnHistory"
+           android:text="تاريخ مدينة القدس"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnstreets"
+           android:text="أحياء مدينة القدس"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnMakana"
+           android:text="مكانة القدس الدينية"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnAdd"
+           android:text="أضافة معلومات"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           />
+
+       <Button
+           android:layout_marginTop="20dp"
+           android:id="@+id/btnVideos"
+           android:text="مشاهدة فيديو"
+           android:background="@drawable/shape_button"
+           android:layout_marginEnd="60dp"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginStart="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+</FrameLayout>
+</LinearLayout>
